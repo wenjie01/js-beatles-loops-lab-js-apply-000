@@ -5,7 +5,8 @@ function theBeatlesPlay(musicians,instruments){
     var musician = musicians[i];
     var instrument = instruments[i];
     var newSentence = musician + 'plays' + instrument;
-    array.push(newSentence)
+    array.push(newSentence);
+    return array
 
   }
 }
